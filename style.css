@@ -3,7 +3,7 @@ body {
   padding: 0;
   font-family: "Fira Code", monospace, sans-serif;
   background: #00BBB9;
-  color: #707070;
+  color: #1E1E1E;
 }
 
 .container {
@@ -19,6 +19,9 @@ body {
   background: #EBEBEB;
   padding: 20px;
   border-radius: 10px;
+  -webkit-box-shadow: 6px 6px 12px -9px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 6px 6px 12px -9px rgba(0, 0, 0, 0.4);
+  box-shadow: 6px 6px 12px -9px rgba(0, 0, 0, 0.4);
 }
 
 .generator h1 {
@@ -46,7 +49,6 @@ body {
   color: white;
   font-family: "Fira Code", monospace, sans-serif;
   font-size: 18px;
-  outline: none;
 }
 
 #length {
@@ -74,7 +76,6 @@ body {
   border-radius: 5px 0 0 5px;
   font-family: "Fira Code", monospace, sans-serif;
   font-size: 18px;
-  outline: none;
   margin-right: none;
   padding: 0 10px;
 }
@@ -88,7 +89,6 @@ body {
   color: white;
   font-family: "Fira Code", monospace, sans-serif;
   font-size: 18px;
-  outline: none;
   margin: 0;
   display: flex;
   align-items: center;
