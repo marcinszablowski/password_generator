@@ -80,7 +80,7 @@ copyEl.addEventListener("click", () => {
   const pass = passwordEl.value;
 
   if (!pass) {
-    console.log("!");
+    console.log("Error!");
     return;
   } 
 
@@ -90,5 +90,7 @@ copyEl.addEventListener("click", () => {
   textarea.select();
   document.execCommand("copy");
   textarea.remove();
-  console.log("Copied!");
+  
+  const copyImg = document.querySelector(".copy-btn");
+  copyImg.classList.add("animated", "heartBeat");
 });
