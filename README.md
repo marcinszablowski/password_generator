@@ -10,5 +10,5 @@ Passwords can include:
 - Symbols
 - Numbers
 
-![alt text](https://raw.githubusercontent.com/marcinszablowski/strong_password_generator/master/img/screenshot.png)
+![alt text](https://raw.githubusercontent.com/marcinszablowski/strong_password_generator/master/img/view.png)
 
