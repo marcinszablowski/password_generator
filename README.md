@@ -1,4 +1,6 @@
 # Strong Password Generator
+======
+Tech: *HTML, CSS, Javascript*
 
 This web app allows to generate random passwords.  
 
